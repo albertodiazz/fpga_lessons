@@ -1,0 +1,20 @@
+# GHDL
+*.o
+*.cf
+
+# Ejecutables generados
+logic_gates_tb
+
+# Ondas de simulación
+*.ghw
+*.vcd
+*.fst
+
+# GTKWave
+*.gtkw
+
+# Archivos temporales
+*~
+*.swp
+*.swo
+
