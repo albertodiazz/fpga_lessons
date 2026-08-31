@@ -8,10 +8,15 @@ entity logic_gates is
 );
 end logic_gates;
 
-architecture flow_logic of logic_gates is
+architecture original of logic_gates is
 	signal flow1, flow2 : std_logic;
 begin
 	flow1 <= (a and b);
 	flow2 <= flow1 or not c;
 	d <= not (a and flow2); 
-end flow_logic;
+end original;
+
+architecture equivalencia of logic_gates is 
+begin
+	d <= not a or (not b and c);
+end equivalencia;
