@@ -18,3 +18,9 @@ logic_gates_tb
 *.swp
 *.swo
 
+*.v
+*.dot 
+*.svg
+*.png
+*.jpg
+*.history
